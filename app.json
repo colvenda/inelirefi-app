@@ -21,23 +21,21 @@
       "package": "com.colvenda.inelirefi"
     },
     "web": {
-  "bundler": "metro",
-  "output": "static",
-  "favicon": "./assets/images/favicon.png",
-  "config": {
-    "pwa": {
-  "enabled": true, // <--- ¡ESTA ES LA LÍNEA QUE FALTA!
-  "name": "INELIREFI App",
-  "shortName": "INELIREFI",
-  "description": "Plataforma educativa de INELIREFI",
-  "themeColor": "#9b2226",
-  "backgroundColor": "#ffffff",
-  "display": "standalone",
-  "orientation": "portrait",
-  "icon": "./assets/images/icon.png"
-}
-  }
-},
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png",
+      "pwa": {
+        "enabled": true,
+        "name": "INELIREFI App",
+        "shortName": "INELIREFI",
+        "description": "Plataforma educativa de INELIREFI",
+        "themeColor": "#9b2226",
+        "backgroundColor": "#ffffff",
+        "display": "standalone",
+        "orientation": "portrait",
+        "icon": "./assets/images/icon.png"
+      }
+    },
     "plugins": [
       "expo-router",
       [
