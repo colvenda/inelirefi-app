@@ -1,6 +1,9 @@
 {
+  "version": 2,
   "cleanUrls": true,
   "rewrites": [
+    { "source": "/manifest.json", "destination": "/manifest.json" },
+    { "source": "/icon.png", "destination": "/icon.png" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
