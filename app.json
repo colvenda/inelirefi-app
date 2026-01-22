@@ -27,10 +27,10 @@
       "pwa": {
         "enabled": true,
         "name": "INELIREFI App",
-        "shortName": "INELIREFI",
+        "short_name": "INELIREFI",
         "description": "Plataforma educativa de INELIREFI",
-        "themeColor": "#9b2226",
-        "backgroundColor": "#ffffff",
+        "theme_color": "#9b2226",
+        "background_color": "#ffffff",
         "display": "standalone",
         "orientation": "portrait",
         "icon": "./assets/images/icon.png"
